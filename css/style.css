@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.btn_primary {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: grab;
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* ----------------------------------------------------- */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.banar_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.banar_text{
+    width: 525px;
+}
+.banar_title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banar_text *{
+    margin-bottom: 32px;
+}
+.banar_image img{
+    width: 100%;
+    vertical-align: middle;
+}
